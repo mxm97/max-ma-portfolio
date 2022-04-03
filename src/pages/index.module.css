@@ -1,0 +1,13 @@
+.home-container {
+    display: inline;
+    background: blue;
+}
+
+.bio-text {
+    text-align: center;
+}
+
+.home-image {
+    max-width: 400px;
+    float: right;
+}
