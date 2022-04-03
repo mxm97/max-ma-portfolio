@@ -5,10 +5,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>Max Ma's portfolio site</p>
       <StaticImage
-        alt="The Yoru Bloodline card from VALORANT"
-        src="../images/yoru.png"
+        alt="A picture of Max Ma"
+        src="../images/portfolio_image_1.jpg"
       />
     </Layout>
   )
