@@ -1,13 +1,25 @@
 .home-container {
     display: inline;
-    background: blue;
+}
+
+.bio-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 400px;
 }
 
 .bio-text {
+    padding-top: 8rem;
+    margin-left: -100px;
     text-align: center;
+}
+
+.photos {
+    padding-right: 6rem;
 }
 
 .home-image {
     max-width: 400px;
     float: right;
 }
+

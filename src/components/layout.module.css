@@ -1,13 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     margin: auto;
     max-width: 100vw;
     font-family: sans-serif;
-    margin: -10px -7px 0 -7px;
 }
 
 .heading {
     color: #B5D6B2;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .nav-container {
@@ -33,14 +39,13 @@
 }
 
 .header-block {
-    background: pink;
+    padding: 0 2rem 0 2rem;
 }
 
 .site-title {
     font-size: 3rem;
-    color: gray;
+    color: #968990;
     font-weight: 700;
     margin: 3rem 0;
     text-align: center;
-    background: blue;
 }
