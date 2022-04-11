@@ -40,6 +40,8 @@
 
 .header-block {
     padding: 0 2rem 0 2rem;
+    display: inline-block;
+    margin-left: 29%;
 }
 
 .site-title {
@@ -48,4 +50,22 @@
     font-weight: 700;
     margin: 3rem 0;
     text-align: center;
+    /* typewriter */
+    overflow: hidden;
+    border-right: .15em solid #B5D6B2;
+    white-space: nowrap;
+    width: 0;
+    animation: 
+        typing 1s steps(20, end) forwards,
+        blink .8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #B5D6B2; }
 }

@@ -7,6 +7,7 @@ import {
   bioText,
   photos,
   homeImage,
+  imageText,
 } from './index.module.css'
 
 const IndexPage = () => {
@@ -22,6 +23,7 @@ const IndexPage = () => {
             alt="A picture of Max Ma"
             src="../images/portfolio_image_1.jpg"
             />
+            <p className={imageText}>I really need a new picture</p>
           </div>
         </div>
       </section>

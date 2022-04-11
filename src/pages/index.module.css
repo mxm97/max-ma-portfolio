@@ -21,5 +21,14 @@
 .home-image {
     max-width: 400px;
     float: right;
+    border-radius: 25px;
 }
 
+.image-text {
+    display: none;
+    text-align: center;
+}
+
+.home-image:hover + .image-text {
+    display: block;
+}
