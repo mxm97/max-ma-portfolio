@@ -4,18 +4,28 @@ import { StaticImage } from 'gatsby-plugin-image'
 import {
   bio,
   bioContainer,
+  textContainer,
   bioText,
   photos,
   homeImage,
   imageText,
 } from './index.module.css'
 
+function swapText() {
+  let aboutMe = document.getElementsByClassName("bioText");
+  if (aboutMe.innerHTML === "Max Ma is a fullstack developer who is trying his very best.") {
+    aboutMe.innerHTML = "did it work?";
+  } else {
+    aboutMe.innerHTML = "Max Ma is a fullstack developer who is trying his very best.";
+  }
+}
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home">
       <section className={bio}>
         <div className={bioContainer}>
-          <div>
+          <div className={textContainer}>
             <p className={bioText}><strong>Max Ma</strong> is a fullstack developer who is trying his very best.</p>
           </div>
           <div className={photos}>
@@ -23,7 +33,7 @@ const IndexPage = () => {
             alt="A picture of Max Ma"
             src="../images/portfolio_image_1.jpg"
             />
-            <p className={imageText}>I really need a new picture</p>
+            <p className={imageText}>Hello there!</p>
           </div>
         </div>
       </section>
