@@ -39,18 +39,17 @@
 }
 
 .header-block {
-    padding: 0 2rem 0 2rem;
-    display: inline-block;
-    margin-left: 29%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 .site-title {
     font-size: 3rem;
     color: #968990;
     font-weight: 700;
-    margin: 3rem 0;
-    text-align: center;
-    /* typewriter */
+    margin: 2rem 0;
+    /* typewriter 
     overflow: hidden;
     border-right: .15em solid #B5D6B2;
     white-space: nowrap;
@@ -58,6 +57,7 @@
     animation: 
         typing 1s steps(20, end) forwards,
         blink .8s infinite;
+    */
 }
 
 @keyframes typing {
