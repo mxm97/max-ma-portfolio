@@ -1,11 +1,13 @@
-.home-container {
+.bio {
     display: inline;
 }
 
 .bio-container {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 3rem;
 }
 
 .bio-text {
@@ -15,11 +17,13 @@
 }
 
 .photos {
-    padding-right: 6rem;
+    border-color: #0F5257;
+    border-radius: 2px;
+    border-style: solid;
 }
 
 .home-image {
-    max-width: 400px;
+    max-width: 300px;
     float: right;
     border-radius: 25px;
 }
