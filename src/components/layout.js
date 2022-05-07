@@ -43,12 +43,12 @@ const Layout = ({ pageTitle, children }) => {
       </nav>
       
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
-
-      <section className={headerBlock}>
-        <h1 className={siteTitle}>{data.site.siteMetadata.title}</h1>
-      </section>
       
       <main>
+        <section className={headerBlock}>
+          <h1 className={siteTitle}>{data.site.siteMetadata.title}</h1>
+        </section>
+        
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
